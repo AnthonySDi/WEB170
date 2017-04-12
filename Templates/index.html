@@ -1,0 +1,169 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+
+        <!--Remy Sharp Shim --> 
+        <!--[if lte IE 9]> 
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" >
+        </script> 
+        <![endif]-->
+        <link href="css/reset.css" type="text/css" rel="stylesheet">    
+        <link href="css/styles.css" type="text/css" rel="stylesheet">    
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" > 
+
+		<!-- font --> 
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+		
+    </head>
+    <body>
+        <header>
+			<div id="head">
+				<img src="images/logo.png" alt="logo">
+			</div>
+		</header>
+		
+		<nav>
+			<ul>
+				<li>
+					Home
+				</li>
+				<li>
+					<a href="about.html">
+						About
+					</a>
+				</li>
+				<li>
+					<a href="portfolio.html">
+						Portfolio
+					</a>
+				</li>
+				<li>
+					<a href="contact.html">
+						Contact
+					</a>
+				</li>
+			</ul>
+		</nav>
+<!--++++++++++ START MOBILE NAVIGATION ++++++++-->		
+		<button class="nav-button">Toggle Navigation</button>
+		<div class="mobile-logo"> 
+			<a href="index.html" title="Home">
+			<img src="images/logo-small.png" alt="small logo">
+			</a>
+		</div>
+		
+		<ul class="primary-nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a>
+			</li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+        <script>
+		$(document).ready(function(){
+			$(".nav-button").click(function () {
+			$(".nav-button,.primary-nav").toggleClass("open");
+			});
+		});
+        </script>
+<!--++++++++++ END MOBILE NAVIGATION ++++++++-->
+		<div id="wrapper">
+        
+		
+		<main>
+			<h2 class="head">
+				Web Developer
+			</h2>
+			
+			<p>
+				This page serves to be a resource not just for myself but others. I will be expanding the resources as I progress in my knowledge of Web development. 
+			</p>
+			
+			<p>
+				If you're not familiar with what a web developer is or what web development is. I can explain all of this for your. A web developer is a programmer that has a focus on internet applications, however, don't just take my word for it. YOu can find out more about web developers at the <a href="https://en.wikipedia.org/wiki/Web_developer">developer wikipedia page </a>. Web development is a general term for creating a website, which can cover a number of things. Check out the <a href="https://en.wikipedia.org/wiki/Web_development">web development page</a> on wikipedia for more information. 
+			</p>
+			<p>
+				If you have suggestions on additional resources or podcast suggestions, feel free to use the contact me page to send feedback. 	
+			</p>
+		</main>
+		
+		
+		<aside>
+			<h3 class="head">
+				Resources 
+			</h3>
+			<ul>
+				<li>
+					<a href="http://webdesignbyolga.com/central-web110-doc.php">
+						Doc type
+					</a>
+				</li>
+				<li>
+					<a href="http://meyerweb.com/eric/tools/css/reset/">
+						Meyer's Reset CSS
+					</a>
+				</li>
+				<li>
+					<a href="http://type-scale.com/">
+						Typography Scaling
+					</a>
+				</li>
+				<li>
+					<a href="http://www.simpleimageresizer.com/">
+						Image Resizer
+					</a>
+				</li>
+				<li>
+					<a href="https://color.adobe.com/create/color-wheel/">
+						Adobe Color
+					</a>
+				</li>
+				<li>
+					<a href="http://paletton.com/">
+						Paletton
+					</a>
+				</li>
+			</ul>
+			<h3 class="head">
+				Helpful Podcasts
+			</h3>
+			<ul>
+				<li>
+					<a href="https://spec.fm/podcasts/developer-tea">
+						Developer Tea
+					</a>
+				</li>
+				<li>
+					<a href="https://thewebplatform.libsyn.com/">
+						The Web Platform Podcast
+					</a>
+				</li>
+				<li>
+					<a href="http://shoptalkshow.com/">
+						Shop Talk
+					</a>
+				</li>
+			</ul>
+
+		</aside>
+        </div>
+		        <footer>
+			<ul>
+				<li>
+					Copyright 2016 &copy; 
+				</li>
+				<li>
+					All rights reserved 
+				</li>
+				<li>
+					<a href="index.html">Design by Anthony</a>
+				</li>					
+			</ul>	
+
+		</footer>
+    </body>
+</html>
