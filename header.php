@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php bloginfo('description'); ?> | <?PHP bloginfo('name'); ?></title>
+    <title><?php get_title_tag(); ?></title>
 
     <!--Remy Sharp Shim -->
     <!--[if lte IE 9]>
@@ -12,7 +12,7 @@
     <link href="<?php bloginfo('template_directory'); ?>/css/reset.css" type="text/css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/css/style.css" type="text/css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="<?php get_the_excerpt(); ?>">
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
